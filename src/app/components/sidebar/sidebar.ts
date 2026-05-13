@@ -27,7 +27,7 @@ export class Sidebar {
   ];
 
   connectListItem: any = [
-    { id: "github", icon: "bi-github", url: ""},
+    { id: "github", icon: "bi-github", url: "https://github.com/talktome3449"},
     { id: "facebook", icon: "bi-facebook", url: "https://www.facebook.com/agrawaldk1990"},
     { id: "linkedin", icon: "bi-linkedin", url: "https://www.linkedin.com/in/agrawaldk1990"}
   ];
