@@ -22,12 +22,15 @@ export class Skills {
     category: 'Other Skills',
     items: [
       { name: 'Node.js', level: 60 },
-      { name: 'Express', level: 60 }
+      { name: 'Express', level: 60 },
+      { name: 'Moment.js', level: 65},
+      { name: 'MongoDB', level: 60}
     ]
   },
   {
     category: 'Tools',
     items: [
+      { name: 'VSCode', level: 90},
       { name: 'Git', level: 85 },
       { name: 'Jira', level: 80 }
     ]

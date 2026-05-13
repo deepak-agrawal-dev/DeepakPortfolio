@@ -19,24 +19,32 @@ export class Experience {
       position: "Senior Analyst",
       place: "Gurgaon, IN",
       duration: "Oct 2022 - Present",
-      summary: "Worked on airline booking platform focusing on UI performance and scalability.",
-      techStack: ["Angular", "RxJS", "Chart.js"],
+      summary: "Developing scalable enterprise applications for airline and visa domains with focus on UI performance and modern Angular architecture.",
+      techStack: ["Angular 21", 'Angular Material', "OneTrust", "Captcha"],
       responsbilities: [
         "Experienced in the airline and visa domains.",
-        "Built structured, reliable, high-performance code, and alongside managing code migration efforts.",
-        "Troubleshoot application problems to maintain smooth functionality.",
-        "Incorporated third-party libraries, services, and RESTful APIs to improve application capabilities.",
-        "Partnered with cross-functional teams to handle analysis, design, and integration efforts.",
-        "Maintained code alignment with best practices and company standards, and worked on modern authorization mechanisms such as JSON Web Token ( JWT ).",
-        "Created application specifications while following program guidelines and technical expectations.",
-        "Took an active role in Agile development processes, including sprint planning, daily stand-ups, and code reviews.",
-        "Ensured features were delivered on time with high quality.",
-        "Designed a POC in React, leveraging Tailwind to craft the user interface."
+        "Built scalable Angular modules and reusable UI components.",
+        "Integrated REST APIs and third-party services for enterprise workflows.",
+        "Improved application performance and maintainability through code optimization.",
+        "Collaborated with cross-functional teams in Agile development environment.",
+        "Developed React + Tailwind POC for modern UI experimentation."
       ],
       metrics: [
-        { icon: "bi-speedometer2", value: "30%", label: "Performance Boost" },
-        { icon: "bi-people", value: "5+", label: "Team Collaboration" },
-        { icon: "bi-code-slash", value: "10+", label: "Reusable Components" }
+        {
+          icon: "bi-lightning-charge",
+          value: "30%",
+          label: "UI Optimization"
+        },
+        {
+          icon: "bi-boxes",
+          value: "10+",
+          label: "Reusable Modules"
+        },
+        {
+          icon: "bi-people",
+          value: "Agile",
+          label: "Team Collaboration"
+        }
       ],
       showMore: false
     },
@@ -48,18 +56,25 @@ export class Experience {
       position: "Senior Developer",
       place: "Gurgaon, IN",
       duration: "Apr 2021 - Oct 2022",
-      summary: "Worked on airline booking platform focusing on UI performance and scalability.",
-      techStack: ["Angular", "RxJS", "Chart.js"],
+      summary: "Worked on enterprise applications focusing on frontend architecture, performance, and business-driven solutions.",
+      techStack: ["Angular", "RxJS", "Angular Material", 'SAP Internals'],
       responsbilities: [
-        "Created organized, reliable, and high-performing code.",
-        "Developed application specifications, ensuring they met technical standards and project deadlines.",
-        "Collaborated with team members to tackle outstanding tasks and adapt to project updates.",
-        "Collected requirements, performed analysis, and supported system design while engaging with business users."
+        "Developed high-performance responsive UI components.",
+        "Collaborated with business teams for requirement analysis and system design.",
+        "Delivered scalable frontend solutions aligned with project deadlines.",
+        "Maintained clean and structured code following best practices."
       ],
       metrics: [
-        { icon: "bi-speedometer2", value: "30%", label: "Performance Boost" },
-        { icon: "bi-people", value: "5+", label: "Team Collaboration" },
-        { icon: "bi-code-slash", value: "10+", label: "Reusable Components" }
+        {
+          icon: "bi-layers",
+          value: "20+",
+          label: "UI Components"
+        },
+        {
+          icon: "bi-speedometer2",
+          value: "High",
+          label: "Performance Focus"
+        }
       ],
       showMore: false
     },
@@ -71,19 +86,25 @@ export class Experience {
       position: "Senior Developer",
       place: "New Delhi, IN",
       duration: "Jul 2018 - Mar 2021",
-      summary: "Worked on airline booking platform focusing on UI performance and scalability.",
-      techStack: ["Angular 5,7,8", "RxJS", "Chart.js"],
+      summary: "Developed healthcare and manufacturing solutions with focus on responsive UI and REST API integration.",
+      techStack: ["Angular 5,7,8", "RxJS", "Bootstrap", "REST APIs"],
       responsbilities: [
-        "Experienced in the healthcare and manufacturing domains, where I crafted structured, maintainable, and effective code.",
-        "Collaborated closely with web developers and backend engineers to ensure smooth functionality, integrate RESTful APIs, and confirm that designs met specifications and industry benchmarks.",
-        "Teamed up with diverse functional groups to perform analysis, design, and integration tasks.",
-        "Created application specifications while ensuring alignment with program standards and technical criteria.",
-        "Performed code evaluations and reviews following established standards."
+        "Built maintainable and scalable frontend modules.",
+        "Integrated REST APIs and backend services.",
+        "Performed code reviews and maintained coding standards.",
+        "Collaborated with developers and business teams."
       ],
       metrics: [
-        { icon: "bi-speedometer2", value: "30%", label: "Performance Boost" },
-        { icon: "bi-people", value: "5+", label: "Team Collaboration" },
-        { icon: "bi-code-slash", value: "10+", label: "Reusable Components" }
+        {
+          icon: "bi-hospital",
+          value: "2",
+          label: "Domains"
+        },
+        {
+          icon: "bi-code-slash",
+          value: "Angular",
+          label: "Frontend Development"
+        }
       ],
       showMore: false
     },
@@ -95,17 +116,24 @@ export class Experience {
       position: "Software Engineer",
       place: "Pune, IN",
       duration: "Jun 2015 - Jun 2018",
-      summary: "Worked on airline booking platform focusing on UI performance and scalability.",
+      summary: "Worked on retail and manufacturing applications with focus on backend support and enterprise workflows.",
       techStack: ["Service Now", "Toad", "Webmethods", "SQL"],
       responsbilities: [
-        "Experience in the retail and manufacturing domains, where I engineered robust, efficient, and well-tested code.",
-        "Formulated application requirements and maintained compliance with technical guidelines.",
-        "Engaged with business users to compile requirements, conduct analysis, and support system design efforts."
+        "Supported enterprise application development and maintenance.",
+        "Worked on requirement gathering and system analysis.",
+        "Collaborated with business users and technical teams."
       ],
       metrics: [
-        { icon: "bi-speedometer2", value: "30%", label: "Performance Boost" },
-        { icon: "bi-people", value: "5+", label: "Team Collaboration" },
-        { icon: "bi-code-slash", value: "10+", label: "Reusable Components" }
+        {
+          icon: "bi-building",
+          value: "Enterprise",
+          label: "Applications"
+        },
+        {
+          icon: "bi-diagram-3",
+          value: "Cross-Team",
+          label: "Collaboration"
+        }
       ],
       showMore: false
     }
