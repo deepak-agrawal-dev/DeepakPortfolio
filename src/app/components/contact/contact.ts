@@ -18,8 +18,8 @@ export class Contact {
     { label: 'Linkedin', icon: 'bi bi-linkedin', url: 'https://www.linkedin.com/in/agrawaldk1990' },
     { label: 'Github', icon: 'bi bi-github', url: 'https://github.com/talktome3449' },
     { label: 'Facebook', icon: 'bi bi-facebook', url: 'https://www.facebook.com/agrawaldk1990' },
-    { label: 'Whatsapp', icon: 'bi bi-whatsapp', url: 'https://wa.me/9130057478' },
+    { label: 'WhatsApp', icon: 'bi bi-whatsapp', url: 'https://wa.me/9130057478' },
     { label: 'Call Me', icon: 'bi bi-telephone', url: 'tel:+919130057478' },
-    { label: 'Email Me', icon: 'bi bi-envelope', url: 'https://mail.google.com/mail/?view=cm&fs=1&to=agrawaldk1990@gmail.com' }
+    { label: 'Email Me', icon: 'bi bi-envelope', url: 'agrawaldk1990@gmail.com' }
   ];
 }
