@@ -112,6 +112,7 @@ Enterprise dashboard platform featuring:
 
 🔗 GitHub:
 https://github.com/talktome3449/Multi-Tenant-Dashboard
+
 https://github.com/talktome3449/Multi-Tenant-Dashboard-Node.js
 
 Live - https://multi-tenant-dashboard-ecru.vercel.app
@@ -153,6 +154,15 @@ Live - https://multi-tenant-dashboard-ecru.vercel.app
 ## 📱 Mobile Responsive View
 <img width="220" height="365" alt="image" src="https://github.com/user-attachments/assets/7a9b4a3e-77de-4e1d-8c5b-c82a08304b4e" />
 
+## 📬 Contact
+LinkedIn: https://www.linkedin.com/in/agrawaldk1990
+Facebook: https://www.facebook.com/agrawaldk1990
+Email: https://mail.google.com/mail/?view=cm&fs=1&to=agrawaldk1990@gmail.com
+WhatsApp: https://wa.me/9130057478
+Phone: tel:+919130057478
+
+## ⭐ If you like this project
+Give it a star on GitHub ⭐
 
 ---
 
@@ -163,3 +173,5 @@ git clone https://github.com/talktome3449/DeepakPortfolio.git
 cd DeepakPortfolio
 npm install
 ng serve
+
+
