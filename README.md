@@ -156,10 +156,14 @@ Live - https://multi-tenant-dashboard-ecru.vercel.app
 
 ## 📬 Contact
 LinkedIn: https://www.linkedin.com/in/agrawaldk1990
+
 Facebook: https://www.facebook.com/agrawaldk1990
-Email: https://mail.google.com/mail/?view=cm&fs=1&to=agrawaldk1990@gmail.com
+
+Email: agrawaldk1990@gmail.com
+
 WhatsApp: https://wa.me/9130057478
-Phone: tel:+919130057478
+
+Phone: +91-9130057478
 
 ## ⭐ If you like this project
 Give it a star on GitHub ⭐
