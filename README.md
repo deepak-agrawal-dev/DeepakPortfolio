@@ -173,7 +173,7 @@ Give it a star on GitHub ⭐
 # 🚀 Installation
 
 ```bash
-git clone https://github.com/talktome3449/DeepakPortfolio.git
+git clone https://github.com/deepak-agrawal-dev/DeepakPortfolio.git
 cd DeepakPortfolio
 npm install
 ng serve
