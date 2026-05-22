@@ -95,7 +95,7 @@ Modern e-commerce platform for developers featuring:
 - Angular Material Design
 
 🔗 GitHub:
-https://github.com/talktome3449/DevToolStoreEcomApp
+https://github.com/deepak-agrawal-dev/DevToolStoreEcomApp
 
 Live - https://dev-tool-store-ecom-app.vercel.app
 
@@ -111,9 +111,9 @@ Enterprise dashboard platform featuring:
 - Node.js + MongoDB Integration
 
 🔗 GitHub:
-https://github.com/talktome3449/Multi-Tenant-Dashboard
+https://github.com/deepak-agrawal-dev/Multi-Tenant-Dashboard
 
-https://github.com/talktome3449/Multi-Tenant-Dashboard-Node.js
+https://github.com/deepak-agrawal-dev/Multi-Tenant-Dashboard-Node.js
 
 Live - https://multi-tenant-dashboard-ecru.vercel.app
 
@@ -155,7 +155,7 @@ Live - https://multi-tenant-dashboard-ecru.vercel.app
 <img width="220" height="365" alt="image" src="https://github.com/user-attachments/assets/7a9b4a3e-77de-4e1d-8c5b-c82a08304b4e" />
 
 ## 📬 Contact
-LinkedIn: https://www.linkedin.com/in/agrawaldk1990
+LinkedIn: https://www.linkedin.com/in/deepakagrawal-ng
 
 Facebook: https://www.facebook.com/agrawaldk1990
 
