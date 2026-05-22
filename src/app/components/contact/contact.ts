@@ -15,8 +15,8 @@ export class Contact {
   };
 
   socialLinks = [
-    { label: 'Linkedin', icon: 'bi bi-linkedin', url: 'https://www.linkedin.com/in/agrawaldk1990' },
-    { label: 'Github', icon: 'bi bi-github', url: 'https://github.com/talktome3449' },
+    { label: 'Linkedin', icon: 'bi bi-linkedin', url: 'https://www.linkedin.com/in/deepakagrawal-ng' },
+    { label: 'Github', icon: 'bi bi-github', url: 'https://github.com/deepak-agrawal-dev' },
     { label: 'Facebook', icon: 'bi bi-facebook', url: 'https://www.facebook.com/agrawaldk1990' },
     { label: 'WhatsApp', icon: 'bi bi-whatsapp', url: 'https://wa.me/9130057478' },
     { label: 'Call Me', icon: 'bi bi-telephone', url: 'tel:+919130057478' },
