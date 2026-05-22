@@ -20,6 +20,6 @@ export class Contact {
     { label: 'Facebook', icon: 'bi bi-facebook', url: 'https://www.facebook.com/agrawaldk1990' },
     { label: 'WhatsApp', icon: 'bi bi-whatsapp', url: 'https://wa.me/9130057478' },
     { label: 'Call Me', icon: 'bi bi-telephone', url: 'tel:+919130057478' },
-    { label: 'Email Me', icon: 'bi bi-envelope', url: 'agrawaldk1990@gmail.com' }
+    { label: 'Email Me', icon: 'bi bi-envelope', url: 'mailto:agrawaldk1990@gmail.com' }
   ];
 }
