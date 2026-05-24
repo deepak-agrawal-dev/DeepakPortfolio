@@ -9,11 +9,17 @@
 
 .home-container::before {
     content: "";
-    background: color-mix(in srgb, #040b14, transparent 70%);
     position: absolute;
     inset: 0;
     z-index: 2;
     box-sizing: border-box;
+    // background: color-mix(in srgb, #040b14, transparent 70%);
+    background: linear-gradient(
+      90deg,
+      rgba(4, 11, 20, 0.82) 0%,
+      rgba(4, 11, 20, 0.58) 45%,
+      rgba(4, 11, 20, 0.35) 100%
+    );
 }
 
 .home-container img {
@@ -24,6 +30,9 @@
     height: 100%;
     object-fit: cover;
     z-index: 1;
+    object-position: center right;
+    z-index: 1;
+    transition: all 0.4s ease;
 }
 
 .home-text {
@@ -32,8 +41,9 @@
 }
 
 .auto-text {
-  // color: #FFC107;
-  color: #000000;
+  color: #FFC107;
+  //color: #000000;
+  font-weight: 600;
 }
 
 .cursor {
@@ -45,4 +55,40 @@
 
 .cursor.blink {
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .home-container img {
+    object-position: 50% center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .home-container img {
+    object-position: 78% center;
+    transform: scale(1.12);
+  }
+
+  .home-text {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+
+  .home-text h1 {
+    font-size: 2rem;
+  }
+
+  .home-text h3 {
+    font-size: 1.15rem;
+  }
+
+  .auto-text {
+    display: inline-block;
+  }
 }
