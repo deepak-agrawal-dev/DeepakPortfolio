@@ -36,7 +36,11 @@ export class Sidebar {
   
   scrollToSection = (section: any) => {
     this.scroller.scrollToAnchor(section);
-    if (this.isMobile) this.closeSidebar.emit();
+    if (this.isMobile) {
+      setTimeout(() => {
+        this.closeSidebar.emit();
+      }, 150);
+    }
   }
   
 }

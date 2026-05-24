@@ -36,39 +36,7 @@
   </button>
   }
 
-  <!-- @if (isMobile && isSidebarOpen) {
-        <div class="backdrop" (click)="closeSidebar()"></div>
-    } -->
+  @if (isMobile && isSidebarOpen) {
+    <div class="backdrop" (click)="closeSidebar()"></div>
+  }
 </div>
-
-<!-- @if (showPopup) {
-  <div class="popup">
-
-    <button (click)="showPopup=false">✖</button>
-
-    <h5>Call Me</h5>
-
-    <a href="tel:+91-9130057478" class="btn btn-warning">
-      Call Now
-    </a>
-
-  </div>
-} -->
-
-<!-- @if (isMobile && showMobileIcons) {
-
-  <div class="mobile-contact">
-
-    <a href="tel:+91XXXXXXXXXX">
-      <i class="bi bi-telephone"></i>
-    </a>
-
-    <a href="#" target="_blank">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-
-    <button (click)="showMobileIcons=false">✖</button>
-
-  </div>
-
-} -->

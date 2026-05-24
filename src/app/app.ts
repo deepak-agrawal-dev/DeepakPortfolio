@@ -23,8 +23,9 @@ export class App implements OnInit {
   theme: string = 'dark';
 
   ngOnInit() {
-  window.scrollTo(0, 0);
-}
+    window.scrollTo(0, 0);
+    this.checkScreen();
+  }
 
   scrollTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -53,35 +54,6 @@ export class App implements OnInit {
 
   showPopup = false;
 
-/* ngAfterViewInit() {
-  const contactSection = document.getElementById('contact');
-
-  const observer = new IntersectionObserver(
-    ([entry]) => {
-      if (entry.isIntersecting && window.innerWidth > 768) {
-        this.showPopup = true;
-      }
-    },
-    { threshold: 0.6 }
-  );
-
-  if (contactSection) observer.observe(contactSection);
-} */
-
-/* lastScroll = 0;
-showMobileIcons = true; */
-
-/* @HostListener('window:scroll')
-onScroll() {
-  const current = window.scrollY;
-
-  if (current < this.lastScroll) {
-    this.showMobileIcons = false; // scrolling up
-  }
-
-  this.lastScroll = current;
-} */
-
   toggleTheme() {
   this.theme = this.theme === 'dark' ? 'light' : 'dark';
 }
@@ -103,29 +75,5 @@ onScroll() {
     }
   }
 }
-
-  /* ngAfterViewInit() {
-
-  const sections = document.querySelectorAll('section');
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-
-      entries.forEach(entry => {
-
-        if (entry.isIntersecting) {
-          this.activeSection = entry.target.id;
-        }
-
-      });
-
-    },
-    {
-      threshold: 0.6 // 60% visible = active
-    }
-  );
-
-  sections.forEach(section => observer.observe(section));
-} */
   
 }
